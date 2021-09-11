@@ -29,8 +29,8 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'Underrail is a very good game!',
-        name: 'Stygian Studios'
+        title: 'About',
+        name: 'Samuel Eskilson'
     })
 })
 
